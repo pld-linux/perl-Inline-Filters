@@ -13,7 +13,7 @@ Summary(fr):	Module Perl Inline::Filters
 Summary(it):	Modulo di Perl Inline::Filters
 Summary(ja):	Inline::Filters Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Inline::Filters ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Inline::Filters
+Summary(nb):	Perlmodul Inline::Filters
 Summary(pl):	Modu³ Perla Inline::Filters
 Summary(pt):	Módulo de Perl Inline::Filters
 Summary(pt_BR):	Módulo Perl Inline::Filters
