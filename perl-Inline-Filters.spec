@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
-%define		pname	Filters
+%define		pnam	Filters
 Summary:	Inline::Filters Perl module
 Summary(cs):	Modul Inline::Filters pro Perl
 Summary(da):	Perlmodul Inline::Filters
@@ -28,7 +28,7 @@ Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	388567f0ce9d59a4c5145ef59312815d
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -48,7 +48,7 @@ Inline::Filters - Common source code filters for Inline Modules.
 Modu³ Inline::Filters - filtry dla modu³ów Inline.
 
 %prep
-%setup -q -n %{pdir}-%{pname}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL </dev/null \
