@@ -23,7 +23,7 @@ Summary(uk):	Модуль для Perl Inline::Filters
 Summary(zh_CN):	Inline::Filters Perl дё©И
 Name:		perl-Inline-Filters
 Version:	0.12
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
