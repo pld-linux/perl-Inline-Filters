@@ -28,7 +28,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 %if %{!?_without_tests:1}%{?_without_tests:0}
 # Warning: preprocesor filters do not work with perl-Inline-0.43 !
 BuildRequires:	perl-Inline = 0.42
