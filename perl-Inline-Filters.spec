@@ -23,12 +23,12 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Filters
 Summary(zh_CN):	Inline::Filters Perl Ä£¿é
 Name:		perl-Inline-Filters
 Version:	0.12
-Release:	3
+Release:	4
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{!?_without_tests:1}%{?_without_tests:0}
 # Warning: preprocesor filters do not work with perl-Inline-0.43 !
 BuildRequires:	perl-Inline = 0.42
@@ -48,7 +48,8 @@ Modu³ Inline::Filters - filtry dla modu³ów Inline.
 %setup -q -n %{pdir}-%{pname}-%{version}
 
 %build
-%{__perl} Makefile.PL </dev/null
+%{__perl} Makefile.PL </dev/null \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -64,5 +65,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Inline/Filters.pm
+%{perl_vendorlib}/Inline/Filters.pm
 %{_mandir}/man3/*
