@@ -1,8 +1,26 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pname	Filters
-Summary:	Inline::Filters perl module
-Summary(pl):	Modu³ perla Inline::Filters
+%define		pdir	Inline
+%define		pname	Filters
+Summary:	Inline::Filters Perl module
+Summary(cs):	Modul Inline::Filters pro Perl
+Summary(da):	Perlmodul Inline::Filters
+Summary(de):	Inline::Filters Perl Modul
+Summary(es):	Módulo de Perl Inline::Filters
+Summary(fr):	Module Perl Inline::Filters
+Summary(it):	Modulo di Perl Inline::Filters
+Summary(ja):	Inline::Filters Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Inline::Filters ÆŞ ¸ğÁÙ
+Summary(no):	Perlmodul Inline::Filters
+Summary(pl):	Modu³ Perla Inline::Filters
+Summary(pt):	Módulo de Perl Inline::Filters
+Summary(pt_BR):	Módulo Perl Inline::Filters
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::Filters
+Summary(sv):	Inline::Filters Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Filters
+Summary(zh_CN):	Inline::Filters Perl Ä£¿é
 Name:		perl-Inline-Filters
 Version:	0.12
 Release:	1
@@ -28,6 +46,7 @@ Modu³ Inline::Filters - filtry dla modu³ów Inline.
 %build
 perl Makefile.PL </dev/null
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
