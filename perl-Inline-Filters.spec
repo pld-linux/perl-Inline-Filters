@@ -1,6 +1,7 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
 %define		pname	Filters
@@ -30,7 +31,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{versio
 # Source0-md5:	388567f0ce9d59a4c5145ef59312815d
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{!?_without_tests:1}%{?_without_tests:0}
+%if %{with tests}
 # Warning: preprocesor filters do not work with perl-Inline-0.43 !
 BuildRequires:	perl-Inline = 0.42
 BuildRequires:	perl-Inline-C
@@ -52,7 +53,8 @@ Modu³ Inline::Filters - filtry dla modu³ów Inline.
 %{__perl} Makefile.PL </dev/null \
 	INSTALLDIRS=vendor
 %{__make}
-%{!?_without_tests:%{__make} test}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
