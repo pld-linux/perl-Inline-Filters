@@ -25,7 +25,8 @@ Summary(zh_CN):	Inline::Filters Perl Ä£¿é
 Name:		perl-Inline-Filters
 Version:	0.12
 Release:	4
-License:	Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 # Source0-md5:	388567f0ce9d59a4c5145ef59312815d
