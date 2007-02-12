@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	Filters
 Summary:	Inline::Filters Perl module
-Summary(cs):	Modul Inline::Filters pro Perl
-Summary(da):	Perlmodul Inline::Filters
-Summary(de):	Inline::Filters Perl Modul
-Summary(es):	Módulo de Perl Inline::Filters
-Summary(fr):	Module Perl Inline::Filters
-Summary(it):	Modulo di Perl Inline::Filters
-Summary(ja):	Inline::Filters Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Inline::Filters ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Inline::Filters
-Summary(pl):	Modu³ Perla Inline::Filters
-Summary(pt):	Módulo de Perl Inline::Filters
-Summary(pt_BR):	Módulo Perl Inline::Filters
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::Filters
-Summary(sv):	Inline::Filters Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Filters
-Summary(zh_CN):	Inline::Filters Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Inline::Filters pro Perl
+Summary(da.UTF-8):   Perlmodul Inline::Filters
+Summary(de.UTF-8):   Inline::Filters Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Inline::Filters
+Summary(fr.UTF-8):   Module Perl Inline::Filters
+Summary(it.UTF-8):   Modulo di Perl Inline::Filters
+Summary(ja.UTF-8):   Inline::Filters Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Inline::Filters í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Inline::Filters
+Summary(pl.UTF-8):   ModuÅ‚ Perla Inline::Filters
+Summary(pt.UTF-8):   MÃ³dulo de Perl Inline::Filters
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Inline::Filters
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Inline::Filters
+Summary(sv.UTF-8):   Inline::Filters Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Inline::Filters
+Summary(zh_CN.UTF-8):   Inline::Filters Perl æ¨¡å—
 Name:		perl-Inline-Filters
 Version:	0.12
 Release:	4
@@ -44,8 +44,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Inline::Filters - Common source code filters for Inline Modules.
 
-%description -l pl
-Modu³ Inline::Filters - filtry dla modu³ów Inline.
+%description -l pl.UTF-8
+ModuÅ‚ Inline::Filters - filtry dla moduÅ‚Ã³w Inline.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
