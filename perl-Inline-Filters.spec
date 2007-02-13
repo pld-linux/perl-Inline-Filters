@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	Filters
 Summary:	Inline::Filters Perl module
-Summary(cs.UTF-8):   Modul Inline::Filters pro Perl
-Summary(da.UTF-8):   Perlmodul Inline::Filters
-Summary(de.UTF-8):   Inline::Filters Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Inline::Filters
-Summary(fr.UTF-8):   Module Perl Inline::Filters
-Summary(it.UTF-8):   Modulo di Perl Inline::Filters
-Summary(ja.UTF-8):   Inline::Filters Perl モジュール
-Summary(ko.UTF-8):   Inline::Filters 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Inline::Filters
-Summary(pl.UTF-8):   Moduł Perla Inline::Filters
-Summary(pt.UTF-8):   Módulo de Perl Inline::Filters
-Summary(pt_BR.UTF-8):   Módulo Perl Inline::Filters
-Summary(ru.UTF-8):   Модуль для Perl Inline::Filters
-Summary(sv.UTF-8):   Inline::Filters Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Inline::Filters
-Summary(zh_CN.UTF-8):   Inline::Filters Perl 模块
+Summary(cs.UTF-8):	Modul Inline::Filters pro Perl
+Summary(da.UTF-8):	Perlmodul Inline::Filters
+Summary(de.UTF-8):	Inline::Filters Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Inline::Filters
+Summary(fr.UTF-8):	Module Perl Inline::Filters
+Summary(it.UTF-8):	Modulo di Perl Inline::Filters
+Summary(ja.UTF-8):	Inline::Filters Perl モジュール
+Summary(ko.UTF-8):	Inline::Filters 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Inline::Filters
+Summary(pl.UTF-8):	Moduł Perla Inline::Filters
+Summary(pt.UTF-8):	Módulo de Perl Inline::Filters
+Summary(pt_BR.UTF-8):	Módulo Perl Inline::Filters
+Summary(ru.UTF-8):	Модуль для Perl Inline::Filters
+Summary(sv.UTF-8):	Inline::Filters Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Inline::Filters
+Summary(zh_CN.UTF-8):	Inline::Filters Perl 模块
 Name:		perl-Inline-Filters
 Version:	0.12
 Release:	4
