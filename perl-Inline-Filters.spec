@@ -4,7 +4,6 @@
 
 %define		pdir	Inline
 %define		pnam	Filters
-%include	/usr/lib/rpm/macros.perl
 Summary:	Inline::Filters Perl module
 Summary(cs.UTF-8):	Modul Inline::Filters pro Perl
 Summary(da.UTF-8):	Perlmodul Inline::Filters
